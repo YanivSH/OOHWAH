@@ -18,6 +18,13 @@
 		79689FFB16B959F0003D3545 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79689FFA16B959F0003D3545 /* Default-568h@2x.png */; };
 		79689FFE16B959F0003D3545 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79689FFC16B959F0003D3545 /* MainStoryboard.storyboard */; };
 		7968A00116B959F0003D3545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7968A00016B959F0003D3545 /* ViewController.m */; };
+		7968A01316B95A8E003D3545 /* MPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7968A00A16B95A8E003D3545 /* MPAnimation.m */; };
+		7968A01416B95A8E003D3545 /* MPFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7968A00D16B95A8E003D3545 /* MPFlipTransition.m */; };
+		7968A01516B95A8E003D3545 /* MPFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7968A00F16B95A8E003D3545 /* MPFlipViewController.m */; };
+		7968A01616B95A8E003D3545 /* MPTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7968A01116B95A8E003D3545 /* MPTransition.m */; };
+		7968A01816B95AE0003D3545 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7968A01716B95AE0003D3545 /* QuartzCore.framework */; };
+		7984BDE716B95D69008CFC04 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7984BDE616B95D69008CFC04 /* ContentViewController.m */; };
+		7984BDEB16B98A13008CFC04 /* Sketc-Heroes-Logo-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7984BDEA16B98A13008CFC04 /* Sketc-Heroes-Logo-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,20 @@
 		79689FFD16B959F0003D3545 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		79689FFF16B959F0003D3545 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7968A00016B959F0003D3545 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7968A00916B95A8E003D3545 /* MPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAnimation.h; sourceTree = "<group>"; };
+		7968A00A16B95A8E003D3545 /* MPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPAnimation.m; sourceTree = "<group>"; };
+		7968A00B16B95A8E003D3545 /* MPFlipEnumerations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFlipEnumerations.h; sourceTree = "<group>"; };
+		7968A00C16B95A8E003D3545 /* MPFlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFlipTransition.h; sourceTree = "<group>"; };
+		7968A00D16B95A8E003D3545 /* MPFlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPFlipTransition.m; sourceTree = "<group>"; };
+		7968A00E16B95A8E003D3545 /* MPFlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFlipViewController.h; sourceTree = "<group>"; };
+		7968A00F16B95A8E003D3545 /* MPFlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPFlipViewController.m; sourceTree = "<group>"; };
+		7968A01016B95A8E003D3545 /* MPTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTransition.h; sourceTree = "<group>"; };
+		7968A01116B95A8E003D3545 /* MPTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTransition.m; sourceTree = "<group>"; };
+		7968A01216B95A8E003D3545 /* MPTransitionEnumerations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTransitionEnumerations.h; sourceTree = "<group>"; };
+		7968A01716B95AE0003D3545 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7984BDE516B95D69008CFC04 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentViewController.h; path = ViewControllers/ContentViewController.h; sourceTree = "<group>"; };
+		7984BDE616B95D69008CFC04 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentViewController.m; path = ViewControllers/ContentViewController.m; sourceTree = "<group>"; };
+		7984BDEA16B98A13008CFC04 /* Sketc-Heroes-Logo-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sketc-Heroes-Logo-1.png"; path = "../../../Desktop/Sketc-Heroes-Logo-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7968A01816B95AE0003D3545 /* QuartzCore.framework in Frameworks */,
 				79689FE516B959F0003D3545 /* UIKit.framework in Frameworks */,
 				79689FE716B959F0003D3545 /* Foundation.framework in Frameworks */,
 				79689FE916B959F0003D3545 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +95,7 @@
 		79689FE316B959F0003D3545 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7968A01716B95AE0003D3545 /* QuartzCore.framework */,
 				79689FE416B959F0003D3545 /* UIKit.framework */,
 				79689FE616B959F0003D3545 /* Foundation.framework */,
 				79689FE816B959F0003D3545 /* CoreGraphics.framework */,
@@ -83,9 +106,12 @@
 		79689FEA16B959F0003D3545 /* OOHWAH */ = {
 			isa = PBXGroup;
 			children = (
+				7968A00716B95A8E003D3545 /* 3rdParty */,
 				79689FF316B959F0003D3545 /* AppDelegate.h */,
 				79689FF416B959F0003D3545 /* AppDelegate.m */,
 				79689FFC16B959F0003D3545 /* MainStoryboard.storyboard */,
+				7984BDE516B95D69008CFC04 /* ContentViewController.h */,
+				7984BDE616B95D69008CFC04 /* ContentViewController.m */,
 				79689FFF16B959F0003D3545 /* ViewController.h */,
 				7968A00016B959F0003D3545 /* ViewController.m */,
 				79689FEB16B959F0003D3545 /* Supporting Files */,
@@ -101,10 +127,36 @@
 				79689FF016B959F0003D3545 /* main.m */,
 				79689FF216B959F0003D3545 /* OOHWAH-Prefix.pch */,
 				79689FF616B959F0003D3545 /* Default.png */,
+				7984BDEA16B98A13008CFC04 /* Sketc-Heroes-Logo-1.png */,
 				79689FF816B959F0003D3545 /* Default@2x.png */,
 				79689FFA16B959F0003D3545 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7968A00716B95A8E003D3545 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				7968A00816B95A8E003D3545 /* MPFlieViewController */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		7968A00816B95A8E003D3545 /* MPFlieViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7968A00916B95A8E003D3545 /* MPAnimation.h */,
+				7968A00A16B95A8E003D3545 /* MPAnimation.m */,
+				7968A00B16B95A8E003D3545 /* MPFlipEnumerations.h */,
+				7968A00C16B95A8E003D3545 /* MPFlipTransition.h */,
+				7968A00D16B95A8E003D3545 /* MPFlipTransition.m */,
+				7968A00E16B95A8E003D3545 /* MPFlipViewController.h */,
+				7968A00F16B95A8E003D3545 /* MPFlipViewController.m */,
+				7968A01016B95A8E003D3545 /* MPTransition.h */,
+				7968A01116B95A8E003D3545 /* MPTransition.m */,
+				7968A01216B95A8E003D3545 /* MPTransitionEnumerations.h */,
+			);
+			path = MPFlieViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +215,7 @@
 				79689FF916B959F0003D3545 /* Default@2x.png in Resources */,
 				79689FFB16B959F0003D3545 /* Default-568h@2x.png in Resources */,
 				79689FFE16B959F0003D3545 /* MainStoryboard.storyboard in Resources */,
+				7984BDEB16B98A13008CFC04 /* Sketc-Heroes-Logo-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +229,11 @@
 				79689FF116B959F0003D3545 /* main.m in Sources */,
 				79689FF516B959F0003D3545 /* AppDelegate.m in Sources */,
 				7968A00116B959F0003D3545 /* ViewController.m in Sources */,
+				7968A01316B95A8E003D3545 /* MPAnimation.m in Sources */,
+				7968A01416B95A8E003D3545 /* MPFlipTransition.m in Sources */,
+				7968A01516B95A8E003D3545 /* MPFlipViewController.m in Sources */,
+				7968A01616B95A8E003D3545 /* MPTransition.m in Sources */,
+				7984BDE716B95D69008CFC04 /* ContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +284,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -251,7 +309,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -265,6 +323,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OOHWAH/OOHWAH-Prefix.pch";
 				INFOPLIST_FILE = "OOHWAH/OOHWAH-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +335,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OOHWAH/OOHWAH-Prefix.pch";
 				INFOPLIST_FILE = "OOHWAH/OOHWAH-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -300,6 +360,7 @@
 				7968A00616B959F0003D3545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

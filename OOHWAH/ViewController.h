@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "MPFlipViewController.h"
+@interface ViewController : UIViewController <MPFlipViewControllerDataSource,MPFlipViewControllerDelegate>
+@property (weak, nonatomic) IBOutlet UIView *frame;
+@property (strong,nonatomic) MPFlipViewController * flipViewController;
+-(void)removeObserver;
 @end
+
